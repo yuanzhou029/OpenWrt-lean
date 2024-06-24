@@ -1,4 +1,4 @@
-name: ARMv8 Docker OpenWrt
+name: AMD64_X86_64 Docker OpenWrt
 
 on:
   workflow_dispatch:
