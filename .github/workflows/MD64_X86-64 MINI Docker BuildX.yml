@@ -1,4 +1,4 @@
-name: AMD64_X86-64 Docker BuildX
+name: AMD64_X86-64 MINI Docker BuildX
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ env:
   REPO_BRANCH: master
   CONFIG_FILE: configs/armv8-docker-mini.config
   DIY_SCRIPT: diy-mini.sh
-  CLASH_KERNEL: arm64
+  CLASH_KERNEL: amd64
   DOCKER_BUILD: buildImageX.sh
   DOCKER_IMAGE: summary/openwrt-aarch64
   TAG: mini
