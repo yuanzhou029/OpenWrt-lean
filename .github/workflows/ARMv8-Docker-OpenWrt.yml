@@ -8,9 +8,9 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: configs/armv8-docker.config
+  CONFIG_FILE: configs/x86_64.config
   DIY_SCRIPT: diy-script.sh
-  CLASH_KERNEL: arm64
+  CLASH_KERNEL: amd64
   DOCKER_BUILD: buildImageX.sh
   DOCKER_IMAGE: summary/openwrt-aarch64
   TZ: Asia/Shanghai
