@@ -1,4 +1,4 @@
-name: ARMv8 Docker BuildX
+name: AMD64_X86-64 Docker BuildX
 
 on:
   workflow_dispatch:
